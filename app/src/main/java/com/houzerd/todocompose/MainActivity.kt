@@ -33,9 +33,6 @@ fun App() {
     val todos = mutableListOf("Go to school", "Go to work", "Go to home")
     val textState = remember { mutableStateOf(TextFieldValue()) }
 
-
-    
-
     Column {
         TopAppBar(title = { Text("Todo App Compose") })
         Row(verticalAlignment = Alignment.CenterVertically) {
