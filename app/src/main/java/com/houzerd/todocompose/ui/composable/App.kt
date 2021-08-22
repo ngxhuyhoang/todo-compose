@@ -17,7 +17,6 @@ fun App() {
         TopAppBar(
             title = { Text("Todo Compose") }
         )
-
         Column(
             modifier = Modifier
                 .fillMaxWidth()
